@@ -1,37 +1,117 @@
-## Welcome to GitHub Pages
+# 前端开发常用的编辑器
 
-You can use the [editor on GitHub](https://github.com/freshmanman/freshmanman.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+##  Hbuilder
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+简介：HBuilder是专为前端开发打造的开发工具，具有飞一样的编码、最全的语法库和浏览器兼容数据、可以方便的制作手机APP、最保护眼睛的绿柔设计等特点。支持HTML、CSS、JS、PHP的快速开发。从开放注册以来深受广大前端朋友们的喜爱。
 
-### Markdown
+优点：
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+因为是一款国产软件，所以中文界面更容易迅速上手。HBuilder拥有完善的帮助文档，诸如快捷键列表什么的，都能快速调出查询；
 
-```markdown
-Syntax highlighted code block
+编码速度飞快。它拥有完整的语法提示和代码输入法、代码块等，以及浏览器兼容性提示，大幅提升HTML、js、css的开发效率。内嵌了emmet、jquery、bootstrap、angular、mui等常用框架的语法提示库。支持less，sass等预编译器。通过快捷键（alt+点击）方便查找到js方法名、ID、CSS类名和链接的出处（定义），支持跨文件查找。HBuilder JSDoc+规范。编写JSDoc有助于代码可读性的提升，还可生成API手册（主要是框架）；
 
-# Header 1
-## Header 2
-### Header 3
+强大的边看边写功能。按下Ctrl P进入边看边改视图，左边保存右边立即刷新。支持模拟手机端，方便进行UI调试。科学护眼。绿柔主题的特点是柔和、低对比度、强光可见、绿色感加强。对着这样的界面写一天代码，感受要比对着太亮或太暗的界面舒服很多。
 
-- Bulleted
-- List
+缺点：
 
-1. Numbered
-2. List
+功能比文本编辑器多，执行也自然会相对慢。编辑器滚动条的滑动有卡顿卡，略显淡疼；
 
-**Bold** and _Italic_ and `Code` text
+比较吃内存。HBuilder还自带了可调试控制台的浏览器，ide+浏览器都在这里，内存占用肯定也少不了。资源消耗更多，但HBuilder可保证主流配置电脑流畅使用。
 
-[Link](url) and ![Image](src)
-```
+## WebStorm 
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+简介：WebStorm 是jetbrains公司旗下一款JavaScript 开发工具。目前已经被广大中国JS开发者誉为“Web前端开发神器”、“最强大的HTML5编辑器”、“最智能的JavaScript IDE”等。与IntelliJ IDEA同源，继承了IntelliJ IDEA强大的JS部分的功能。
 
-### Jekyll Themes
+**优点：**
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/freshmanman/freshmanman.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+容易学习，新手也可以快速上手。不用讲什么插件安装，搞什么配置，直接上手才是王道；
 
-### Support or Contact
+内置功能强大。做为一款真正意义上的前端开发ide，它所集成的功能非常丰富，基本无须安装插件。代码定位能力。只需鼠标一点， 就能能轻松定位到变量/属性/方法的定义处，开发非常有用；
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+代码和文件关联能力。无论是修改文件名还是变量名（或者删除），ws都会将变动同步到它们被使用到的地方，并且会弹出友好的警告提示。自带git版本控，语法提示，nodeJS调试等功能，命令行功能，支持各种代码检测功能，支持各种代码模板
+
+强大的文件临听能力。轻松实现less、sass、coffescript自动编译等。内置服务器功能。不用配置烦杂的后台环境，就可以简单测试一些需要服务器配合的页面。本地版本控制。在 WS 里所有的编辑都被存在本地，随时可以还原到历史版本（关键时候能救命）。
+
+**缺点：**
+
+吃内存。如果项目或文件比较大的话，ws运行时间一长就可能出现各种状况，卡顿甚至卡死也可能发生，但概率并不算高。如果用ws打开多个项目的话，内存占用会大幅上升。尽管如此，也从来没有造成过什么损失，最多只是重启一下。
+
+##  Sublime Text
+
+简介：它是一套跨平台的文本编辑器，支持基于Python的插件，开发者是Jon Skinner。虽然Sublime诞生得早，但是至今仍有众多的使用者。而且当前端开发需要在N个项目间频繁切换时，Sublime Text就会派上大用场。
+
+**优点：**
+
+不仅跨平台，而且在所有平台上看起来都很漂亮。很流畅，响应灵敏，很吸引眼球。支持多光标操作：它能让你对文本中的多个地方同时做修改，你可以看到多个地方在你输入的时候同时发生变化。重构时用它很方便，比如修改一个变量名；
+
+扩展性很好，它使用了Python式的插件系统。这显然是一个很大和活跃的社区，可以为它提供丰富的插件，这也意味着你可以在网上找的任何你想要的插件来集成你想要的功能。
+
+**缺点：**经常发现手动安装的插件会自动消失，原因是Sublime Text自动移除了。
+
+## wampServer 
+
+简介：WampServer，是Windos Apache Mysql PHP集成安装环境，即在window下的apache、php和mysql的服务器软件。PHP扩展、Apache模块，开启/关闭鼠标点点就搞定，再也不用亲自去修改配置文件了，WAMP它会去做。再也不用到处询问php的安装问题了，WAMP一切都搞定了。
+
+##  Dreamweaver
+
+  Dreamweaver 的主要吸引力在于它将网页设计简化为“所见即所得”（WYSIWYG）平台，使用拖放功能，使用Dreamwea在短时间内理解设计并没有太多的学习曲线。然而，有些人由于其令人困惑的界面而难以学习Dream的基础知识，并且无法始终信任WYSIWYG元素，因为它不一定能够显示实时用户通过浏览器看到的内容。您可能会发现该软件提供了许多您可能永远不会使用的功能，而其他人可能会发现它只是他们需要做的任何事情，它对于只需要基本网站的设计师有用。
+
+**Dreamweaver的优点**
+
+Dreamweaver为喜欢通过显示代码和设计视图的窗口编写代码的专业人员提供了有用的工具，它提供代码突出显示，允许您在检查错误时快速读取代码。它的代码建议功能可以帮助代码编写CSS，其他有用的功能包括文件管理器，代码验证和可访问性检查。
+
+最终，Dreamweaver是一个简单而有效的平台，适合需要设计多个基本站点的用户。它加载了模板，为您提供了大量不同的网站布局选择。最新版本可以让您“实时查看”网站在现实中的真实情况。Dreamweaver还提供高级工具，作为Adobe系列的一部分，它可以与其他Adobe产品很好地集成。
+
+使用Dreamweaver的另一个好处是它是一个跨平台的解决方案，它可以帮助您为所有设备构建网站，因为您不需要学习移动网站的特殊代码。例如 “流体网格”功能可让网站自动重新排列，以适应正在查看的屏幕。
+
+**Dreamweaver的缺点**
+
+如果您过分依赖Dreamweaver的基本功能，它可以将您变成一个懒惰的Web设计者。由于网络在不断发展，您可能会错过有价值的开发，将您的设计知识限制为Dreamweaver提供的工具。
+
+您最关心的问题可能是上传和整理内容有多么容易，但在某些时候您可能希望探索WYSIWIG解决方案以外的更复杂的技术。
+
+Dreamweaver的另一个缺点是与其他解决方案相比价格昂贵，有很多内容管理器系统，如WordPress，可以免费为您提供基本的Web工具。
+
+在某些情况下，您可以使用CMS平台执行比使用Dreamweaver更强大的任务，虽然这对于初学者来说可能是压倒性的。为了最大化软件以实现其最强大的功能，您需要一个云服务器，这可能会增加高昂的费用。
+
+**结论**
+
+网页设计的最佳平台取决于最适合您的方式，有些人无法处理Dreamweaver的细微差别和局限性，而其他设计人员则喜欢运行更多基本站点。
+
+将Dreamweaver用于非技术人群的主要优点是它绕过了编写代码，但它也可以帮助更有经验的代码编写者更轻松地完成工作。
+
+
+
+##  Codepen
+
+ CodePen 是一个完全免费的前端代码托管服务，可以用来制作和测试页面的网站。不仅仅可以在这里编辑前端代码并实时预览，还可以看到其它大神制作的优秀案例。
+
+- 代码效果即时预览。编辑好立刻看到效果。
+- 可自定义模板。不是每次都要从白板开始的好吗？
+- 方便的编辑窗口。这是我用过最方便的编辑器，html、css和Js窗口并排分布，不用频繁切换。
+- 无需注册，随时随地。你甚至你可以在手机上编辑代码！
+
+##  Atom
+
+**Atom** 是 **Github** 开源的文本编辑器，这个编辑器完全是使用Web技术构建的(基于[Node](https://so.csdn.net/so/search?q=Node&spm=1001.2101.3001.7020)-Webkit)。启动速度快，提供很多常用功能的插件和主题，可以说Atom已经足以胜任“半个IDE”了。
+
+**Atom的优点：**
+
+（1）多平台支持（Windows、Mac、Linux）
+
+（2）界面美观、现代化,使用舒适
+
+（3）多文件管理（[Atom](https://so.csdn.net/so/search?q=Atom&spm=1001.2101.3001.7020)提供了文件树列表的功能）
+
+（4）设置管理很方便，不用像Sublime需要自己手动安装第三方管理插件
+
+（5）由[GitHub](https://so.csdn.net/so/search?q=GitHub&spm=1001.2101.3001.7020)打造，社区活跃,免费使用
+
+（6）支持各种编程语言的代码高亮和代码补全(部分需要插件支持)
+
+（7）原生Git的支持
+
+（8）原生Markdown支持（实时预览、代码高亮，比Mou的代码高亮效果好很多）
+
+（9）主题插件越来越丰富
+
