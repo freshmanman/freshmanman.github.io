@@ -1,1 +1,5 @@
 theme: jekyll-theme-cayman
+<<<<<<< HEAD
+=======
+markdown: kramdown
+>>>>>>> 709ed1f0bb99d61b6e1f8c6a6c069ea6c1441883
